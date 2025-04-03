@@ -385,6 +385,8 @@ section{
 
 .about-containers{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-self: center;
     height: 50%;
     width: 50%;
