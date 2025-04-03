@@ -330,11 +330,25 @@ section{
     margin-bottom: 2rem;
 }
 
-.experience-details-container{
+.experience-details-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: center;  /* Centers the projects */
+    align-items: stretch;  /* Ensures equal height */
+    gap: 20px;  /* Adds space between the cards */
+    flex-wrap: wrap;  /* Allows wrapping on smaller screens */
+    margin-top: 20px;
 }
+
+.details-container {
+    flex: 1;  /* Makes them equal width */
+    max-width: 400px;  /* Prevents stretching too much */
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 .article-container{
     display: flex;
