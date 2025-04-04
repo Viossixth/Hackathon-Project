@@ -2,6 +2,7 @@
    #profile{
     height: 83vh;
     margin-bottom: 6rem;
+    display: flex;
    }
    .about-container{
     flex-wrap: wrap;
@@ -14,10 +15,6 @@
     }
     #hamburger-nav{
         display: flex;
-    }
-    #experience,
-    .experience-details-container{
-        margin-top: 2rem;
     }
     #profile,
     .section-container{
@@ -49,7 +46,7 @@
         height: 40vh;
     }
     #profile{
-        height:83vh;
+        height: min(83vh, 700px);
         margin-bottom: 0;
     }
     article {
@@ -63,6 +60,7 @@
     .contact-info-upper-container,
     .btn-container{
         flex-wrap: wrap;
+        display: flex;
     }
     .contact-info-container{
         margin:0;
